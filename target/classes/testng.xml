@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="tracify Application Test Automation Test Suite" parallel="none">
+  <test name="tracify app test Cases">
+    <classes>
+  <class name="com.herokuapp.qa.tests.LoginPageTest"/>
+   <class name="com.herokuapp.qa.tests.LogoutPageTest"/>
+    <class name="com.herokuapp.qa.tests.HomePageTest"/>
+     <class name="com.herokuapp.qa.tests.EditProfilePageTest"/>
+      <class name="com.herokuapp.qa.tests.CreateMissionsPageTest"/>
+      <class name="com.herokuapp.qa.tests.SubDivisonMissionPageTest"/>
+    </classes>
+  </test>
+</suite> 

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [tracify Application Test Automation Test Suite]">
+  <test thread-count="5" name="tracify app test Cases(failed)">
+    <classes>
+      <class name="com.herokuapp.qa.tests.CreateMissionsPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="endReport"/>
+          <include name="Exit"/>
+          <include name="verifymissionlabel" invocation-numbers="1"/>
+          <include name="ReportSetup"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.herokuapp.qa.tests.CreateMissionsPageTest -->
+      <class name="com.herokuapp.qa.tests.SubDivisonMissionPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="endReport"/>
+          <include name="verifyaddmision_as_subdepart" invocation-numbers="1"/>
+          <include name="Exit"/>
+          <include name="ReportSetup"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.herokuapp.qa.tests.SubDivisonMissionPageTest -->
+    </classes>
+  </test> <!-- tracify app test Cases(failed) -->
+</suite> <!-- Failed suite [tracify Application Test Automation Test Suite] -->

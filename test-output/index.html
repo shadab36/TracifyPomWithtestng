@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-tracify_Application_Test_Automation_Test_Suite">
+              <span class="suite-name border-failed">tracify Application Test Automation Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-tracify_Application_Test_Automation_Test_Suite">
+                    <span>F:\KeyWordDrivenFrameWork\com.client.tracify.com\src\main\resoures\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-tracify_Application_Test_Automation_Test_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-tracify_Application_Test_Automation_Test_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-tracify_Application_Test_Automation_Test_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-tracify_Application_Test_Automation_Test_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-tracify_Application_Test_Automation_Test_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-tracify_Application_Test_Automation_Test_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods, 2 failed,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-tracify_Application_Test_Automation_Test_Suite" class="hide-methods failed suite-tracify_Application_Test_Automation_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-tracify_Application_Test_Automation_Test_Suite -->
+                      <a href="#" panel-name="suite-tracify_Application_Test_Automation_Test_Suite" class="show-methods failed suite-tracify_Application_Test_Automation_Test_Suite"> (show)</a> <!-- show-methods failed suite-tracify_Application_Test_Automation_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-tracify_Application_Test_Automation_Test_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-tracify_Application_Test_Automation_Test_Suite" title="com.herokuapp.qa.tests.SubDivisonMissionPageTest" hash-for-method="verifyaddmision_as_subdepart(etett, etetet, tetyyt, ejkrk, rtggy, ewtytyewty)">verifyaddmision_as_subdepart(etett, etetet, tetyyt, ejkrk, rtggy, ewtytyewty)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-tracify_Application_Test_Automation_Test_Suite" title="com.herokuapp.qa.tests.CreateMissionsPageTest" hash-for-method="verifymissionlabel(etett, etetet, tetyyt, ejkrk, rtggy, ewtytyewty)">verifymissionlabel(etett, etetet, tetyyt, ejkrk, rtggy, ewtytyewty)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-tracify_Application_Test_Automation_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-tracify_Application_Test_Automation_Test_Suite" class="hide-methods passed suite-tracify_Application_Test_Automation_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-tracify_Application_Test_Automation_Test_Suite -->
+                      <a href="#" panel-name="suite-tracify_Application_Test_Automation_Test_Suite" class="show-methods passed suite-tracify_Application_Test_Automation_Test_Suite"> (show)</a> <!-- show-methods passed suite-tracify_Application_Test_Automation_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-tracify_Application_Test_Automation_Test_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-tracify_Application_Test_Automation_Test_Suite" title="com.herokuapp.qa.tests.HomePageTest" hash-for-method="VerifyUserProfileName">VerifyUserProfileName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-tracify_Application_Test_Automation_Test_Suite" title="com.herokuapp.qa.tests.LogoutPageTest" hash-for-method="clicklogout">clicklogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-tracify_Application_Test_Automation_Test_Suite" title="com.herokuapp.qa.tests.LoginPageTest" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-tracify_Application_Test_Automation_Test_Suite" title="com.herokuapp.qa.tests.EditProfilePageTest" hash-for-method="update(Indore)">update(Indore)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-tracify_Application_Test_Automation_Test_Suite" title="com.herokuapp.qa.tests.HomePageTest" hash-for-method="verifyHomePageTitle">verifyHomePageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-tracify_Application_Test_Automation_Test_Suite" title="com.herokuapp.qa.tests.CreateMissionsPageTest" hash-for-method="verifyTableList">verifyTableList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-tracify_Application_Test_Automation_Test_Suite" title="com.herokuapp.qa.tests.EditProfilePageTest" hash-for-method="verify_updated_data(Indore)">verify_updated_data(Indore)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-tracify_Application_Test_Automation_Test_Suite" title="com.herokuapp.qa.tests.SubDivisonMissionPageTest" hash-for-method="verifyaddmision_as_subdepart(Testing  New Department, Testing Category, Client 1, chhotuManual, chhotuManual, Test Deadline1)">verifyaddmision_as_subdepart(Testing  New Department, Testing Category, Client 1, chhotuManual, chhotuManual, Test Deadline1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-tracify_Application_Test_Automation_Test_Suite" title="com.herokuapp.qa.tests.LoginPageTest" hash-for-method="verifyloginpagetitle">verifyloginpagetitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-tracify_Application_Test_Automation_Test_Suite" title="com.herokuapp.qa.tests.CreateMissionsPageTest" hash-for-method="verifymissionlabel(Testing  New Department, Testing Category, Client 1, chhotuManual, chhotuManual, Test Deadline1)">verifymissionlabel(Testing  New Department, Testing Category, Client 1, chhotuManual, chhotuManual, Test Deadline1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-tracify_Application_Test_Automation_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-tracify_Application_Test_Automation_Test_Suite" class="panel tracify_Application_Test_Automation_Test_Suite">
+          <div class="suite-tracify_Application_Test_Automation_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.herokuapp.qa.tests.CreateMissionsPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifymissionlabel(etett, etetet, tetyyt, ejkrk, rtggy, ewtytyewty)">
+                  </a> <!-- verifymissionlabel(etett, etetet, tetyyt, ejkrk, rtggy, ewtytyewty) -->
+                  <span class="method-name">verifymissionlabel</span>
+                  <span class="parameters">(etett, etetet, tetyyt, ejkrk, rtggy, ewtytyewty)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li[contains(text(),&apos;etett&apos;)]&quot;}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;AMW-G1&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\WINDOWS\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:61914}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 374333ad14b3aad05261c065e30dbc5c
+*** Element info: {Using=xpath, value=//li[contains(text(),&apos;etett&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy10.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:186)
+	at com.herokuapp.qa.pages.CreateMissionsPage.Select_Département(CreateMissionsPage.java:107)
+	at com.herokuapp.qa.tests.CreateMissionsPageTest.verifymissionlabel(CreateMissionsPageTest.java:65)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Fills the crate mission filed)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-tracify_Application_Test_Automation_Test_Suite-class-failed -->
+          <div class="suite-tracify_Application_Test_Automation_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.herokuapp.qa.tests.SubDivisonMissionPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyaddmision_as_subdepart(etett, etetet, tetyyt, ejkrk, rtggy, ewtytyewty)">
+                  </a> <!-- verifyaddmision_as_subdepart(etett, etetet, tetyyt, ejkrk, rtggy, ewtytyewty) -->
+                  <span class="method-name">verifyaddmision_as_subdepart</span>
+                  <span class="parameters">(etett, etetet, tetyyt, ejkrk, rtggy, ewtytyewty)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(@class, &apos;dropdown-item&apos;)][contains(text(),&apos;etett&apos;)]&quot;}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;AMW-G1&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\WINDOWS\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:61988}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 214332a94a140518727121b556377304
+*** Element info: {Using=xpath, value=//a[contains(@class, &apos;dropdown-item&apos;)][contains(text(),&apos;etett&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy10.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:186)
+	at com.herokuapp.qa.pages.SubDivisonMissionPage.By_department(SubDivisonMissionPage.java:36)
+	at com.herokuapp.qa.tests.SubDivisonMissionPageTest.verifyaddmision_as_subdepart(SubDivisonMissionPageTest.java:46)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(verify add mission button with sub departement)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-tracify_Application_Test_Automation_Test_Suite-class-failed -->
+          <div class="suite-tracify_Application_Test_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.herokuapp.qa.tests.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                  <em>
+(Tracify user login Page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyloginpagetitle">
+                  </a> <!-- verifyloginpagetitle -->
+                  <span class="method-name">verifyloginpagetitle</span>
+                  <em>
+(Validation of Login page tile)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-tracify_Application_Test_Automation_Test_Suite-class-passed -->
+          <div class="suite-tracify_Application_Test_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.herokuapp.qa.tests.LogoutPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clicklogout">
+                  </a> <!-- clicklogout -->
+                  <span class="method-name">clicklogout</span>
+                  <em>
+(Validation the user logout the app)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-tracify_Application_Test_Automation_Test_Suite-class-passed -->
+          <div class="suite-tracify_Application_Test_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.herokuapp.qa.tests.CreateMissionsPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTableList">
+                  </a> <!-- verifyTableList -->
+                  <span class="method-name">verifyTableList</span>
+                  <em>
+(verify the the table list)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifymissionlabel(Testing  New Department, Testing Category, Client 1, chhotuManual, chhotuManual, Test Deadline1)">
+                  </a> <!-- verifymissionlabel(Testing  New Department, Testing Category, Client 1, chhotuManual, chhotuManual, Test Deadline1) -->
+                  <span class="method-name">verifymissionlabel</span>
+                  <span class="parameters">(Testing  New Department, Testing Category, Client 1, chhotuManual, chhotuManual, Test Deadline1)</span>
+                  <em>
+(Fills the crate mission filed)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-tracify_Application_Test_Automation_Test_Suite-class-passed -->
+          <div class="suite-tracify_Application_Test_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.herokuapp.qa.tests.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyUserProfileName">
+                  </a> <!-- VerifyUserProfileName -->
+                  <span class="method-name">VerifyUserProfileName</span>
+                  <em>
+(Validation the userprofile name)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomePageTitle">
+                  </a> <!-- verifyHomePageTitle -->
+                  <span class="method-name">verifyHomePageTitle</span>
+                  <em>
+(Validation the home page title)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-tracify_Application_Test_Automation_Test_Suite-class-passed -->
+          <div class="suite-tracify_Application_Test_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.herokuapp.qa.tests.EditProfilePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="update(Indore)">
+                  </a> <!-- update(Indore) -->
+                  <span class="method-name">update</span>
+                  <span class="parameters">(Indore)</span>
+                  <em>
+(Update the user profile)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_updated_data(Indore)">
+                  </a> <!-- verify_updated_data(Indore) -->
+                  <span class="method-name">verify_updated_data</span>
+                  <span class="parameters">(Indore)</span>
+                  <em>
+(verify the edited profile data)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-tracify_Application_Test_Automation_Test_Suite-class-passed -->
+          <div class="suite-tracify_Application_Test_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.herokuapp.qa.tests.SubDivisonMissionPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyaddmision_as_subdepart(Testing  New Department, Testing Category, Client 1, chhotuManual, chhotuManual, Test Deadline1)">
+                  </a> <!-- verifyaddmision_as_subdepart(Testing  New Department, Testing Category, Client 1, chhotuManual, chhotuManual, Test Deadline1) -->
+                  <span class="method-name">verifyaddmision_as_subdepart</span>
+                  <span class="parameters">(Testing  New Department, Testing Category, Client 1, chhotuManual, chhotuManual, Test Deadline1)</span>
+                  <em>
+(verify add mission button with sub departement)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-tracify_Application_Test_Automation_Test_Suite-class-passed -->
+        </div> <!-- panel tracify_Application_Test_Automation_Test_Suite -->
+        <div panel-name="test-xml-tracify_Application_Test_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\KeyWordDrivenFrameWork\com.client.tracify.com\src\main\resoures\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;tracify Application Test Automation Test Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;tracify app test Cases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.herokuapp.qa.tests.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;com.herokuapp.qa.tests.LogoutPageTest&quot;/&gt;
+      &lt;class name=&quot;com.herokuapp.qa.tests.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.herokuapp.qa.tests.EditProfilePageTest&quot;/&gt;
+      &lt;class name=&quot;com.herokuapp.qa.tests.CreateMissionsPageTest&quot;/&gt;
+      &lt;class name=&quot;com.herokuapp.qa.tests.SubDivisonMissionPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- tracify app test Cases --&gt;
+&lt;/suite&gt; &lt;!-- tracify Application Test Automation Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-tracify_Application_Test_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for tracify Application Test Automation Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">tracify app test Cases (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-tracify_Application_Test_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for tracify Application Test Automation Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-tracify_Application_Test_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for tracify Application Test Automation Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_tracify_Application_Test_Automation_Test_Suite');
+function tableData_tracify_Application_Test_Automation_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifymissionlabel')
+data.setCell(0, 2, 'com.herokuapp.qa.tests.CreateMissionsPageTest')
+data.setCell(0, 3, 28974);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'login')
+data.setCell(1, 2, 'com.herokuapp.qa.tests.LoginPageTest')
+data.setCell(1, 3, 25639);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyaddmision_as_subdepart')
+data.setCell(2, 2, 'com.herokuapp.qa.tests.SubDivisonMissionPageTest')
+data.setCell(2, 3, 22645);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifymissionlabel')
+data.setCell(3, 2, 'com.herokuapp.qa.tests.CreateMissionsPageTest')
+data.setCell(3, 3, 20405);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyaddmision_as_subdepart')
+data.setCell(4, 2, 'com.herokuapp.qa.tests.SubDivisonMissionPageTest')
+data.setCell(4, 3, 8692);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'clicklogout')
+data.setCell(5, 2, 'com.herokuapp.qa.tests.LogoutPageTest')
+data.setCell(5, 3, 4834);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'update')
+data.setCell(6, 2, 'com.herokuapp.qa.tests.EditProfilePageTest')
+data.setCell(6, 3, 4227);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyTableList')
+data.setCell(7, 2, 'com.herokuapp.qa.tests.CreateMissionsPageTest')
+data.setCell(7, 3, 4212);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyloginpagetitle')
+data.setCell(8, 2, 'com.herokuapp.qa.tests.LoginPageTest')
+data.setCell(8, 3, 488);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verify_updated_data')
+data.setCell(9, 2, 'com.herokuapp.qa.tests.EditProfilePageTest')
+data.setCell(9, 3, 61);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'VerifyUserProfileName')
+data.setCell(10, 2, 'com.herokuapp.qa.tests.HomePageTest')
+data.setCell(10, 3, 51);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyHomePageTitle')
+data.setCell(11, 2, 'com.herokuapp.qa.tests.HomePageTest')
+data.setCell(11, 3, 19);
+window.suiteTableData['tracify_Application_Test_Automation_Test_Suite']= { tableData: data, tableDiv: 'times-div-tracify_Application_Test_Automation_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-tracify_Application_Test_Automation_Test_Suite">
+              </div> <!-- times-div-tracify_Application_Test_Automation_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-tracify_Application_Test_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for tracify Application Test Automation Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-tracify_Application_Test_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">10 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.herokuapp.qa.tests.LogoutPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+                <span class="ignored-method-name">ReportSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.herokuapp.qa.tests.CreateMissionsPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+                <span class="ignored-method-name">ReportSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.herokuapp.qa.tests.HomePageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+                <span class="ignored-method-name">ReportSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.herokuapp.qa.tests.EditProfilePageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+                <span class="ignored-method-name">ReportSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.herokuapp.qa.tests.SubDivisonMissionPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+                <span class="ignored-method-name">ReportSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-tracify_Application_Test_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.qa.tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">ReportSetup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">193 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyloginpagetitle</span>
+                <span class="method-start">10627 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Exit</span>
+                <span class="method-start">11117 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifyloginpagetitle status=SUCCESS method=LoginPageTest.verifyloginpagetitle()[pri...)</span>
+                <span class="method-start">12070 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">12089 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">22060 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Exit</span>
+                <span class="method-start">47702 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=login status=SUCCESS method=LoginPageTest.login()[pri:2, instance:com.herokuapp.qa....)</span>
+                <span class="method-start">48677 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.qa.tests.LogoutPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">48679 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clicklogout</span>
+                <span class="method-start">66267 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Exit</span>
+                <span class="method-start">71104 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=clicklogout status=SUCCESS method=LogoutPageTest.clicklogout()[pri:3, instance:com....)</span>
+                <span class="method-start">72103 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.qa.tests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">72104 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyHomePageTitle</span>
+                <span class="method-start">89831 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Exit</span>
+                <span class="method-start">89852 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifyHomePageTitle status=SUCCESS method=HomePageTest.verifyHomePageTitle()[pri:3,...)</span>
+                <span class="method-start">90842 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">90843 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyUserProfileName</span>
+                <span class="method-start">106546 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Exit</span>
+                <span class="method-start">106598 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=VerifyUserProfileName status=SUCCESS method=HomePageTest.VerifyUserProfileName()[pr...)</span>
+                <span class="method-start">107609 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.qa.tests.EditProfilePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">108297 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">update(Indore)</span>
+                <span class="method-start">130403 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Exit</span>
+                <span class="method-start">134631 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=update status=SUCCESS method=EditProfilePageTest.update(java.lang.String)[pri:6, in...)</span>
+                <span class="method-start">135586 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">135656 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verify_updated_data(Indore)</span>
+                <span class="method-start">157257 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Exit</span>
+                <span class="method-start">157320 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verify_updated_data status=SUCCESS method=EditProfilePageTest.verify_updated_data(j...)</span>
+                <span class="method-start">158357 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.qa.tests.CreateMissionsPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">158360 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTableList</span>
+                <span class="method-start">173325 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Exit</span>
+                <span class="method-start">177538 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifyTableList status=SUCCESS method=CreateMissionsPageTest.verifyTableList()[pri:...)</span>
+                <span class="method-start">178509 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">178559 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifymissionlabel(Testing  New Department, Testing Category, Client 1, chhotuManual, chhotuManual, Test Deadline1)</span>
+                <span class="method-start">206523 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Exit</span>
+                <span class="method-start">226931 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifymissionlabel status=SUCCESS method=CreateMissionsPageTest.verifymissionlabel(...)</span>
+                <span class="method-start">227978 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">227978 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifymissionlabel(etett, etetet, tetyyt, ejkrk, rtggy, ewtytyewty)</span>
+                <span class="method-start">244277 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Exit</span>
+                <span class="method-start">273254 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifymissionlabel status=FAILURE method=CreateMissionsPageTest.verifymissionlabel(...)</span>
+                <span class="method-start">274279 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.qa.tests.SubDivisonMissionPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">274344 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyaddmision_as_subdepart(Testing  New Department, Testing Category, Client 1, chhotuManual, chhotuManual, Test Deadline1)</span>
+                <span class="method-start">292085 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Exit</span>
+                <span class="method-start">300779 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifyaddmision_as_subdepart status=SUCCESS method=SubDivisonMissionPageTest.verify...)</span>
+                <span class="method-start">301752 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">301755 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyaddmision_as_subdepart(etett, etetet, tetyyt, ejkrk, rtggy, ewtytyewty)</span>
+                <span class="method-start">318642 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Exit</span>
+                <span class="method-start">341289 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifyaddmision_as_subdepart status=FAILURE method=SubDivisonMissionPageTest.verify...)</span>
+                <span class="method-start">342275 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.qa.tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">endReport</span>
+                <span class="method-start">342326 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Tracify  Application Test Automation Test Suite">
+  <test name="Tracify app test Cases">
+    <classes>
+        <class name="com.herokuapp.qa.tests.CreateMissionsPageTest"/>
+    </classes>
+  </test>
+</suite> 
